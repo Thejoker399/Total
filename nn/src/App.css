@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Creepster|Ewert');
+
+body{
+    margin: 0px;
+    background-image: url("./img/H2.jpg");
+}
+
+.h1_header{
+    margin: 0px;
+    padding-top: 40px;
+    font-size: 100px;
+    font-family: 'Creepster', cursive;
+    font-weight: normal;
+    color: red;
+}
+#backgroundTwoColor {
+    text-align: center; 
+}
+.block-input{
+    padding-top: 50px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.block-input input {
+    width: 40%;
+    height: 20px;
+}
+.block-button{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button-submit{
+    width: 100px;
+    height: 25px;
+}
+
+.block-total{
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Gaegu');
+body {
+    width: 21cm;
+    height: auto;
+    margin: 50px 200px 0px;
+}
+header{
+    width: 100%;
+    height: auto;
+}
+img {
+    width: 100%;
+}
+#rowimg{
+    width: 100%;
+    height: auto;
+    background-image: url('photo.jpg');
+    background-size: cover;
+}
+.circle{ /* ชื่อคลาสต้องตรงกับ <img class="circle"... */
+    border-radius: 50%; /* ปรับเป็น 50% คือความโค้งของเส้นขอบ*/
+    width: 200px;
+    height: 170px;
+    margin: -45px 198px 20px ;
+}
+#ff{
+    font-size: 650%; /*ขนาดตัวหนังสือ*/
+    font-weight:bold; /*ตัวหนังสือเข้ม*/
+    font-family: 'Gaegu', cursive;
+    font-family: 'Itim', cursive;
+}
+#fff{
+    font-size: 130%; /*ขนาดตัวหนังสือ*/
+    font-weight:bold; /*ตัวหนังสือเข้ม*/
+    font-family: 'Gaegu', cursive;
+    font-family: 'Itim', cursive;
+    
+}
+#ffff{
+    font-size: 200%; /*ขนาดตัวหนังสือ*/
+    font-weight:bold; /*ตัวหนังสือเข้ม*/
+    font-family: 'Gaegu', cursive;
+    font-family: 'Itim', cursive;
+    
+}
+#si{
+    font-size: 120%; /*ขนาดตัวหนังสือ*/
+    font-weight:bold; /*ตัวหนังสือเข้ม*/
+    font-family: 'Gaegu', cursive;
+    font-family: 'Itim', cursive;
+    
+}
+.col1{
+    position:relative;/*การกำหนดคอลัม*/
+    float:left;/*สั่งให้ชิดซ้าย*/
+    width:45%;/*ขนาดคอลัม*/
+    margin: 15px 0px 0px 5px;
+}
+.col2{
+    position:relative; /*การกำหนดคอลัม*/
+    float:right; /*สั่งให้ชิดขวา*/
+    width:45%; /*ขนาดคอลัม*/ 
+    margin: 15px 0px 0px 5px;
+     
+}
+
